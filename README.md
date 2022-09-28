@@ -23,8 +23,6 @@ The code originates from our research project and the aim is to demonstrate the 
 ## :sparkles: News
 **2022.3.31**: Our new work regarding old film restoration will be published in CVPR 2022. For more details, please refer to the [project website](http://raywzy.com/Old_Film/) and [github repo](https://github.com/raywzy/Bringing-Old-Films-Back-to-Life).
 
-<img src='imgs/HOF_2_007_007_my_concat.gif'>
-
 The framework now supports the restoration of high-resolution input.
 
 <img src='imgs/HR_result.png'>
@@ -63,7 +61,7 @@ bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
 cd ../
 ```
 
-Download the pretrained model from Azure Blob Storage, put the file `Face_Enhancement/checkpoints.zip` under `./Face_Enhancement`, and put the file `Global/checkpoints.zip` under `./Global`. Then unzip them respectively.
+Download the pretrained model, put the file `Face_Enhancement/checkpoints.zip` under `./Face_Enhancement`, and put the file `Global/checkpoints.zip` under `./Global`. Then unzip them respectively.
 
 ```
 cd Face_Enhancement/
